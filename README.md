@@ -13,10 +13,8 @@ Blockchain-based diploma verification system built with Ethereum smart contracts
 
 ```
 ├── contracts/          # Solidity smart contracts
-├── migrations/         # Truffle deployment scripts
 ├── backend/            # Express API server
-├── nft-diploma-frontend/   # React frontend
-└── scripts/            # Deployment utilities
+└── nft-diploma-frontend/   # React frontend
 ```
 
 ## Setup
