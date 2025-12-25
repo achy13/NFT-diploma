@@ -1,0 +1,37 @@
+{
+  "name": "nft-diploma-system",
+  "version": "1.0.0",
+  "description": "Blockchain-based university diploma verification system",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "migrate:dev": "truffle migrate --network development",
+    "migrate:sepolia": "truffle migrate --network sepolia",
+    "console:dev": "truffle console --network development",
+    "interact": "truffle exec scripts/interact.js --network development",
+    "deploy": "truffle exec scripts/deploy-and-verify.js"
+  },
+  "keywords": [
+    "blockchain",
+    "nft",
+    "diploma",
+    "ethereum",
+    "truffle"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "hardhat": "^2.27.0",
+    "truffle": "^5.11.5",
+    "truffle-plugin-verify": "^0.6.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "dotenv": "^17.2.3",
+    "web3": "^4.3.0"
+  }
+}
