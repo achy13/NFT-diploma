@@ -40,7 +40,7 @@ Blockchain-based diploma verification system built with Ethereum smart contracts
 
 4. Start backend:
    ```bash
-   cd backend && node server.js
+   cd backend && npm start
    ```
 
 5. Start frontend:
